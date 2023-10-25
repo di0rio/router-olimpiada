@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className={style.container}>
       <div className={style.link}>
-        Feito com ❤️ por <a href="https://github.com/di0rio">di0rio</a>
+        <p> Feito com ❤️ por </p><a href="https://github.com/di0rio"> di0rio</a>
       </div>
     </div>
   )

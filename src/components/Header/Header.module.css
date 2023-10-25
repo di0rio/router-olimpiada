@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.container h1{
+    margin-top: 3.2em;
+    gap: 1.7em;
+
+}
+
+.container img{
+    margin-top: 2.2em;
+    gap: 0.9em;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 3em;
+    margin-top: 6.2em;
+    padding: 1em 0.5em;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}

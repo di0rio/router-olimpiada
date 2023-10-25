@@ -1,0 +1,20 @@
+.container{
+    position: absolute;
+background-color: rgb(180, 61, 61);
+width: 100vh;
+height: 100px;
+margin-bottom: 0;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    padding: 1em 0em;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
