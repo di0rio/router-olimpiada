@@ -2,9 +2,9 @@
   background-color: rgb(187, 100, 100);
   position: absolute;
   bottom: 0;
-  height: 100px;
+  height: 150px;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   /* position: absolute;
   width: 100vh;
   height: 100px;

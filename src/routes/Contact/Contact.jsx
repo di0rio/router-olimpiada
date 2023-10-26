@@ -1,9 +1,26 @@
 import style from "./Contact.module.css";
 
 import popcorn from "../../assets/pipoca.jpg";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   
+  const handleClick = async () => {
+
+    const resultado = await fetch("Comprado!");
+    
+    Swal.fire({
+      background: 'black',
+      color: 'white',
+      title:"Problema relatado!",
+      text:"Enviado, porfavor aguarde nossa equipe😰",
+      confirmButtonColor: 'red',
+      icon: 'info',
+      iconColor: 'red',
+    })
+  };
+
+
   return (
     <div className={style.container}>
       <h3>Entre em contato com nossa equipe🤗</h3>
@@ -21,7 +38,7 @@ const Contact = () => {
           <input placeholder="Máximo de 400 palaras" type="Máximo de 400 palavras" />
         </div>
         <div className={style.btn}>
-          <button>Enviar</button>
+          <button onClick={handleClick}>Enviar</button>
         </div>
       </div>
       <div>

@@ -7,6 +7,10 @@
     /* display: flex; */
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* body{
     background:linear-gradient(270deg,     #1A120B 0%,
     #3E065F 25%,
