@@ -3,6 +3,7 @@ import style from "./Contact.module.css";
 import popcorn from "../../assets/pipoca.jpg";
 
 const Contact = () => {
+  
   return (
     <div className={style.container}>
       <h3>Entre em contato com nossa equipe🤗</h3>

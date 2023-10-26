@@ -35,3 +35,7 @@ color: rgb(64, 64, 148);
 animation: 0.5s;
 transition: 0.5s;
 }
+
+.link:active{
+
+}

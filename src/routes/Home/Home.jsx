@@ -1,28 +1,20 @@
 import style from "./Home.module.css";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 
 import mine from "../../assets/mine.jpg";
 
 const Home = () => {
-  // const [comprado, setComprado] = useState(false);
-  // const [alertOpen, setAlertOpen] = useState(false);
-  // const alertRef = useRef(null);
+  const [value, setValue] = useState("");
 
-  // const handleClick = async () => {
-  //   setComprado(true);
+  const handleClick = async () => {
 
-  //   const alert = await alert("Comprado!");
-  //   alertRef.current = alert;
+    const resultado = await fetch("Comprado!");
 
-  //   setAlertOpen(true);
-  // };
-
-  // useEffect(() => {
-  //   if (comprado && alertOpen) {
-  //     alertRef.current.close();
-  //   }
-  // }, [comprado, alertOpen]);
+    alert({
+      title: "Compra concluída",
+    });
+  };
 
   return (
     <div>
@@ -36,11 +28,9 @@ const Home = () => {
         </div>
       </div>
       <div className={style.btnLocal}>
-        {/* <button onClick={handleClick} className={style.btn}> */}
-        <button className={style.btn}>
+        <button onClick={handleClick} className={style.btn}>
           Comprar ingresso
         </button>
-        {/* {comprado && alertOpen && alertRef.current} */}
       </div>
     </div>
   );
