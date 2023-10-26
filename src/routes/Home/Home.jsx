@@ -25,6 +25,8 @@ const Home = () => {
       iconColor: 'lime',
       confirmButtonText:"Ok",
       confirmButtonColor: 'lime',
+      imageUrl:'https://anajustrafederal.org.br/_midias/png/2023/08/18/1600x533/1_170823_convenios_topo-117943.png',
+      imageWidth:'20em',
     })
   };
 
