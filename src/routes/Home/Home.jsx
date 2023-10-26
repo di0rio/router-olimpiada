@@ -2,7 +2,7 @@ import style from "./Home.module.css";
 
 import React, { useState, useEffect, useRef } from "react";
 
-import mine from "../../assets/mine.avif";
+import mine from "../../assets/mine.jpg";
 
 const Home = () => {
   // const [comprado, setComprado] = useState(false);
