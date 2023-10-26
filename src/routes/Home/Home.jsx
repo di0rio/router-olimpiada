@@ -17,6 +17,8 @@ const Home = () => {
     // });
     
     Swal.fire({
+      background: 'black',
+      color: 'white',
       title:"Cinema João🍿",
       text:"Ingresso Comprado!",
       icon: 'info',
