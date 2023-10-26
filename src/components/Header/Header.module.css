@@ -5,13 +5,13 @@
 }
 
 .container h1{
-    margin-top: 3.2em;
+    margin-top: 1.9em;
     gap: 1.7em;
 
 }
 
 .container img{
-    margin-top: 2.2em;
+    margin-top: 0em;
     gap: 0.9em;
 }
 
@@ -19,12 +19,19 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 3em;
-    margin-top: 6.2em;
-    padding: 1em 0.5em;
+    gap: 2.5em;
+    margin-top: 2.3em;
+    padding: 1em 1.5em;
+    font-size: 1.3em;
 }
 
 .link{
     text-decoration: none;
     color: black;
+}
+
+.link:hover{
+color: rgb(64, 64, 148);
+animation: 0.5s;
+transition: 0.5s;
 }

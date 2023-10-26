@@ -1,0 +1,60 @@
+.container {
+  /* display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; */
+  margin-left: 50%;
+
+  width: 50em;
+  height: 30em;
+  border-radius: 0.5em;
+
+  padding: 0em 1.5em;
+
+  background-color: rgb(248, 248, 211);
+}
+
+.container input {
+  margin-top: -2em;
+}
+
+.container img {
+  border-radius: 0.2em;
+
+  width: 19em;
+  height: 30em;
+  object-fit: cover;
+
+  margin-left: 32.5em;
+  margin-top: -26.8em;
+
+  opacity: 0.8;
+}
+
+.problema input {
+  margin-top: 0.12em;
+  width: 13em;
+  height: 7em;
+
+  padding: 1em;
+}
+
+.btn button {
+  width: 222px;
+  height: 38px;
+  border-radius: 0.3em;
+
+  border: none;
+
+  margin-top: 1em;
+
+  cursor: pointer;
+
+  background-color: rgb(213, 112, 58);
+}
+
+.btn button:hover {
+  background-color: rgb(138, 74, 40);
+  animation: 0.5s;
+  transition: 0.5s;
+}

@@ -1,20 +1,41 @@
-.container{
-    position: absolute;
-background-color: rgb(180, 61, 61);
-width: 100vh;
-height: 100px;
-margin-bottom: 0;
+.container {
+  background-color: rgb(187, 100, 100);
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  /* position: absolute;
+  width: 100vh;
+  height: 100px;
+  margin-bottom: 0; */
 }
 
-.link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: medium;
-    padding: 1em 0em;
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  padding: 1em 0em;
 }
 
-.link a{
-    text-decoration: none;
-    color: black;
+.link a {
+  text-decoration: none;
+  color: black;
 }
+
+.link a:hover {
+  color: yellow;
+  animation: 0.5s;
+  transition: 0.5s;
+}
+
+/* .sociallinks {
+  display: flex;
+  margin-top: -.6em;
+  font-size: 30px;
+  gap: 0.5em;
+  margin-left: 87%;
+  color: #193a6a;
+  cursor: pointer;
+} */

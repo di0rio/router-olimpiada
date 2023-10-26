@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.container h4 {
+  /* width: 40em;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+
+  margin-left: 2em;
+
+  padding: 0em;
+}
+
+.ticket{
+    background-color: rgba(68, 68, 93, 0.912);
+    /* background: linear-gradient(270deg, #0B0B0D0 0%); */
+    height: 25em;
+}
+
+.ticket img{
+    width: 50em;
+    height: 25em;
+    
+    object-fit: cover;
+    
+    margin-left: 35.7em;
+    margin-top: 0em;
+}
+
+.ticket h2{
+    padding: 2em 0em;
+}
