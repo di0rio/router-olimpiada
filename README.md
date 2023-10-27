@@ -1,6 +1,6 @@
 # Projeto na máquina virtual do GitHub
 
-Este projeto é um repositório de código aberto para estudos de rotas(react-router-dom) com as tecnologias JS, Vite e Node.js. O projeto consiste em um site simples para um cinema.
+Este projeto é um repositório para estudos de rotas(react-router-dom) com as tecnologias JS, Vite e Node.js. O projeto consiste em um site simples para um cinema.
 
 CardMovie: Filme Minecraft com info do preço. ||
 Compra de ingressos: O usuário pode comprar ingressos para os filmes que estão em cartaz(feito com alert).
